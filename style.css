@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+section {
+    height: 90vh;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -13,7 +17,6 @@ h1 {
     background-image: url("/image/top-banner.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
 }
 
 .owner_name {
@@ -27,9 +30,18 @@ h1 {
     padding-left: 2%;
 }
 
-.half-width button {
-    width: 100px;
-    height: 30px;
+.half-width .link_button {
+    width: 70px;
+    height: 20px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    ;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
 }
 
 .half-width img {
