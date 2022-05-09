@@ -6,7 +6,7 @@ body {
 }
 
 section {
-    height: 100vh;
+    height: 95vh;
     padding-bottom: 100px;
 }
 
@@ -16,7 +16,6 @@ h1 {
 
 p {
     color: dimgray;
-    padding-bottom: 10px;
 }
 
 .first_section {
@@ -25,7 +24,7 @@ p {
     background-size: cover;
 }
 
-.owner_name {
+.orange-highlight {
     color: orange;
 }
 
@@ -70,7 +69,36 @@ p {
     background-position: right;
 }
 
-.second_section .half-width h2 {
+h2 {
     font-size: 40px;
     font-weight: 500;
+}
+
+.third_section {
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: 200px;
+    ;
+}
+
+.third_section .single-experience {
+    color: rgb(109, 109, 109);
+    box-shadow: 10px 10px 40px 2px rgba(158, 158, 158, 0.726);
+    height: 60%;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
